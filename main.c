@@ -1,10 +1,20 @@
-#include<stdio.h>
+#include <stdio.h>
+#include <stdbool.h>
+
 
 int main(){
 
-    int a = 10;
-    
-    printf("hello");
+    bool isOlnine = true;
+
+
+    if(isOlnine){
+
+        printf("Derrick is ONLINE");
+    }
+    else{
+
+        printf("Derrick is OFFLINE");
+    }
 
     return 0;
 }
